@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Complete Form </title>
+</head>
+<style>
+    form{
+        background-color: rgba(255,255,255,.3);
+    box-shadow: 0 0 10px white;
+    width: 350px;
+    height: 600px;
+    padding: 10px;
+    margin: 15px auto;
+    border-radius: 8px;
+    }
+    header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./src/site.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    }
+    h2{
+        text-align: center;
+        color: white;
+        border-radius: 50px;
+        background-color: rgba(255,255,255,.3);
+        margin: 10px top;
+        padding: 10px;
+    }
+</style>
+<body>
+    <header>
+    <h2>Login From</h2>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label>Email Add:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Password:</label>
+                </td>
+                <td>
+                    <input type="password" placeholder="password">
+                </td>
+            </tr>
+        </table><br>
+        <label>Select Technology:</label>
+        <select>
+            <option>HTMl</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </select> <br><br>
+        <label>Choose Your Tech.</label>
+        <select>
+            <optgroup label="Languages">
+                <option>Java</option>
+            <option>PHP</option>
+            <option>SQL</option>
+            </optgroup>
+            <optgroup label="Scripts">
+                <option>Shell Scripts</option>
+                <option>Unix Scripts</option>
+            </optgroup>
+        </select><br><br>
+        <label>How'z Nanded Wheather:</label>
+        <input type="radio" value="good" name="climate">Good
+        <input type="radio" value="bad" name="climate">Bad
+        <br><br>
+        <label>Your Hobbies:</label>
+    <input type="checkbox" value="eating">Eating
+    <input type="checkbox" value="codin">Coding
+    <input type="checkbox" value="sleeping">Sleeping
+    <br><br>
+    <label>Time:</label>
+        <input type="datetime-local">
+        <br><br>
+        <label>Email Required:</label>
+        <input type="email">
+        <br><br>
+        <label>Select Number:</label>
+        <input type="number" min="0" max="100" step="0.5">
+        <br><br>
+        <label>Your Web URL:</label>
+        <input type="url">
+        <br><br>
+        <label>Coose A file</label>
+        <input type="file">
+        <br><br>
+        <label>Your Comments</label>
+            <textarea rows="4" cols="40" maxlength="100"></textarea>
+        <br><br>
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset">
+    </form>
+</header>
+</body>
+</html>

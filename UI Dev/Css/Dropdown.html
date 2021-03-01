@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<style>
+    a{
+        text-decoration: none;
+    }
+    .dropdown{
+        display: inline-block;
+        
+    }
+    a:hover{
+            background-image: linear-gradient(45deg,rgb(6, 98, 141),rgb(234, 236, 93));
+            box-shadow: 0 0 5px black;}
+    .dropdown-list{
+        position: absolute;
+        padding: 5px;
+        width: 180px;
+        margin-top: 3px;
+        display: none;
+        color: white;
+
+    }
+    .dropdown-list a{
+        display: block;
+    }
+    .dropdown:hover .dropdown-list {
+        display: block;
+    }
+   
+</style>
+<body>
+    <div class="dropdown">
+        <a href="">Careers</a><i class="fa fa-caret-down"></i>
+        <div class="dropdwon-list">
+            <a href="">Java</a>
+            <a href="">PHP</a>
+            <a href="">Angular</a>
+            <a href="">React Js</a>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    form{
+        background-color: teal;
+        color: white;
+        padding: 15px;
+        width: 400px;
+    }
+</style>
+<body>
+
+    <!------------Simple Form------------->
+
+    <h2>Simple Form</h2>
+    <form >
+        <label>User Name:</label>
+        <input type="text" placeholder="@email">
+        <br> <br>
+        <label>Password:</label>
+        <input type="password" placeholder="password">
+        <br><br>
+        <input type="Submit" value="Login">
+        <input type="Reset" value="Reset">
+    </form>
+    <hr>
+
+    <!----------------Form With Table-------------->
+
+    <h2>Form With Table</h2>
+
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label>User Name:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Password:</label>
+                </td>
+                <td>
+                    <input type="Password" placeholder="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Submit" value="Login">
+                </td>
+                <td>
+                    <input type="Reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form> <hr>
+
+    <!--------------Select Box With options------------>
+
+    <h2>Select Box</h2>
+    <form>
+        <label>Select Technologies:</label>
+        <select>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>Bootstrap</option>
+            <option>React Js</option>
+        </select>
+    </form>
+    <hr>
+
+    <h2>Select Box With Optgrp</h2>
+    <form>
+        <label>Select Your Fav:</label>
+        <select>
+            <optgroup label="HTML">
+                <option>Tags</option>
+                <option>Form</option>
+                <option>Images</option>
+            </optgroup>
+            <optgroup label="CSS">
+                <option>Designing</option>
+                <option>Coloring</option>
+                <option>Margin</option>
+            </optgroup>
+        </select>
+    </form>
+    <hr>
+
+    <h2>Text Area</h2>
+    <form >
+        <label>Comment Box</label>
+        <textarea cols="40" rows="5" maxlength="20"></textarea>
+    </form>
+    <hr>
+
+</body>
+</html>

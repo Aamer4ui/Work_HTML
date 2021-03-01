@@ -1,0 +1,31 @@
+==============================CSS Color's===============================
+
+Styling WAy's:-
+1)inline (Inside the tag)
+2)internal(Seperate <Style Tag>)
+3)External (Creating The stylesheet) style.css
+
+Colors:==================
+1)RGB (Red,Green,Blue):
+The rgb Color Value is specified with ()function.
+it can be integrated between 0 & 255 or Percentage value (0% to 100%).
+syntax===== rgb(0,0,255) Or (0%,100%)
+
+2)HEX (Hexadecimal):
+The Hex color is specified with #RRGGBB.
+The all value between 00 & ff.
+
+3)HSL (Hue,Saturation,Lightness):
+hue is a degree on the color while (0 to 360) an red is 120 and blue 240.
+saturation is a percentage value 0% means a shade of gray & 100% is the full of clors.
+the lightness als0 define 0% to 100%.
+
+4)RGBA (Red, Green, Blue ,Alpha):
+The alpha Parameter Value between 0.0 to 1.0----
+===============================================CSS BAckground========================
+1) Background Color
+2)Background Image
+3)Background Attachment
+4)Background Position
+5)Background Repeate
+

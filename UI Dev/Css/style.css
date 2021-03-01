@@ -1,0 +1,13 @@
+/* ==========================Color's================================ */
+body{
+    background-image: url(../src/image3.jpeg);
+    background-size: cover;
+}
+div{
+    height: 100px;
+}
+h2{
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    border-radius: 20px;
+}

@@ -1,0 +1,56 @@
+body{
+    background-image: url(./Pics//image3.jpeg);
+    background-attachment: fixed;
+}
+/* ---------styling Nav---------------- */
+nav{
+    padding: 18px 25px;
+    box-shadow: 0 0 10px black ;
+    border-radius: 10px;
+}
+/* ---------Styling Anchors-------------- */
+nav a{
+    text-decoration: none;
+    padding: 18px 25px;
+    color: white;
+}
+a:hover{
+     color: black;
+     background: white;
+     border-radius: 10px;
+}
+
+/* -----------Styling Heading-------------------------- */
+h2{
+    background-color: white;
+    width: 200px;
+    /* padding: 18px;
+    border-radius: 15px; */
+    /* border-bottom: 5px double black; */
+    border: solid 3px black;
+    padding: 30px;
+}
+div{
+    margin-top: 10%;
+}
+/* ---------------Styling Para1--------------- */
+
+.para1{
+    background: url(./Pics/image5.jpeg);
+    padding: 18px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0 black;
+    text-align: justify;
+
+}
+.para2{
+    border: 5px solid black;
+    border-radius: 60px 5px;
+    padding: 18px 25px;
+    text-align: justify;
+    background-color: cornflowerblue;
+    background-image: url(./Pics/user.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types</title>
+</head>
+<style>
+    form{
+        background-color: chartreuse;
+        padding: 15px;
+        width: 400px;
+        color: black;
+    }
+</style>
+<body>
+
+    <!-------------Input Types
+                    text,password,radio,checkbox,color,date,datetimelocal
+                    email,month,number, range,
+                    search, time, week, file,url------------------->
+
+
+    <h2>Text Box</h2>
+    <form>
+        <label>User Name</label>
+        <input type="text">
+    </form>
+    <hr>
+     <h2>Password</h2>
+     <form>
+         <label>Password:</label>
+         <input type="password">
+     </form>
+
+     <!----------------Radio------------>
+
+     <h2>Radio button</h2>
+     <form >
+         <label>My Hobbies</label>
+         <input type="radio" value="good" name="hobbies">GOOD
+         <input type="radio" value="bad" name="hobbies">BAD
+     </form>
+
+     <!---------------checkbox------------->
+
+     <h2>CheckBox</h2>
+     <form >
+         <label>Select Your Hobbies</label>
+         <input type="checkbox" value="eating">Eating
+         <input type="checkbox" value="coding">Coding
+         <input type="checkbox" value="sleeping">Sleeping
+     </form>
+
+     <!-------------color---------------->
+
+     <h2>Choose Color</h2>
+     <form>
+         <label>Choose Your Fav</label>
+         <input type="color">
+     </form>
+
+     <!---------------Date------------------>
+     <h2>Date's</h2>
+     <form>
+         <label>Select Date:</label>
+         <input type="date">
+     </form>
+
+     <!---------------DateTime Local----------------->
+     <h2>Date & Time Local</h2>
+     <form >
+         <label>Select Date & Local Time:</label>
+         <input type="datetime-local">
+     </form>
+
+     <!--------------Email-------------->
+
+     <h2>Email</h2>
+     <form >
+         <label>Enter Your Email Add:</label>
+         <input type="email" placeholder="@email">
+     </form>
+
+     <!-------------Month----------------->
+     <h2>Month's</h2>
+     <form>
+         <label>Select Month</label>
+         <input type="month">
+     </form>
+
+     <!---------------Range-------------------->
+     <h2>Select Range</h2>
+     <form >
+         <label>Select Range:</label> 0
+         <input type="range" min="0" max="100">100
+     </form>
+
+     <!------------Search--------------------->
+
+     <h2>Search Box</h2>
+     <form>
+         <label>Serach</label>
+         <input type="search">
+     </form>
+
+     <!-----------Number---------------->
+     <h2>Number</h2>
+     <form>
+         <label>Select Number</label>
+         <input type="number" min="0" max="100" step="0.5">
+     </form>
+
+     <!-------------Time---------------->
+     <h2>Time</h2>
+     <form>
+         <label>Select A Time:</label>
+         <input type="time">
+    </form>
+
+    <!--------------Week------------->
+    <h2>Week</h2>
+    <form >
+        <label>Select Week</label>
+        <input type="week">
+    </form>
+
+    <!------------File-------------->
+    <h2>File</h2>
+    <form>
+        <label>Upload File</label>
+        <input type="file">
+    </form>
+
+    <!-------------URL---------------->
+    <h2>URL</h2>
+    <form>
+        <label >Type URL:</label>
+        <input type="url">
+    </form>
+
+
+</body>
+</html>

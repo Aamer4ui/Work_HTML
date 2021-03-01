@@ -1,0 +1,47 @@
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    display: none;
+}
+div img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+/* ----------------------Mobile Screen------------- */
+@media(max-width:500px) {
+    body{
+    background: linear-gradient(45deg , blue, red);
+}
+div h2:nth-child(1){
+    display: block;
+}
+div p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+}
+
+/* ---------------------Tablet Screen----------------------------- */
+@media(min-width:501px) and (max-width:800px){
+    body{
+        background: linear-gradient(45deg ,green, blue);
+    }
+    div h2:nth-child(2){
+        display: block;
+    }
+    div p{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Regisrtration Form</title>
+</head>
+<style>
+    .table1 {
+        border: 2px black;
+        border-style:solid;
+        padding: 12px;
+        background-color: royalblue;
+    }
+    .ammu{
+    border:1px solid green; 
+    padding:12px;
+    }
+    fieldset{
+        background-color: rosybrown;
+    }
+    legend{
+        background-color: orangered;
+            color: black;
+            padding: 15px;
+            border-radius: 50px;
+            box-shadow: 0 0 5px black;
+    }
+    .table1{
+        border-radius: 10px;
+        box-shadow: 0 0 5px   black;
+    }
+    marquee{
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+    }
+    h3{
+        background: white;
+        width: 200px;
+        padding: 10px;
+        border-radius: 50%;
+        text-align: center;
+        box-shadow:0 0 10px black;
+    }
+    footer{
+        box-shadow: 0 0 10px white;
+        color: white;
+        padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    i{
+        background-color: white;
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    #face{
+        color: blue;
+    }
+    #insta{
+        color: rgb(231, 71, 71);
+    }
+    </style>
+<body background="5.jpg">
+    <form border="1px">
+        <fieldset>
+            <legend><b>User Regisrtration Form</b></legend>
+            <marquee behavior="alternate" scrollamount="10%" font-size="10" bgcolor="lightgreen">
+                <h3 font color="black">Student Login Form</h3>
+            </marquee>
+            <table class="table1" height="600" align="center" >
+                    <br/><br/><br/>
+                    <tr>
+                        <td >Firstname:</td>
+                        <td><input type="text" class="ammu" name="Firstname"  placeholder="Enter a Firstname"></td>
+                    </tr>
+                    <tr>
+                        <td>Lastname:</td>
+                        <td><input type="text" class="ammu" name="Lastname"  placeholder="Enter a Lastname"></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="Password" class="ammu" name="pwd"  placeholder="Enter a password"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>Male:<input type="radio" name="gender">
+                            Female:<input type="radio" name="gender" id="gender">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Choose your Favorite:</td>
+                        <td>
+                            <input type="checkbox" value="Music" name="Music">Music<br/>
+                            <input type="checkbox" value="Sport" name="Sport">Sport<br/>
+                            <input type="checkbox" value="Books" name="Books">Books<br/>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Address:</td>
+                        <td>
+                            <textarea name="Address" id="Address"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="text" class="ammu" name="text" size="40" placeholder="example@gmail.com"></td>
+                    </tr>
+                    <tr>
+                    <td>DOB:</td>
+                    <td><input type="date" class="ammu"></td>
+                </tr>
+                    <tr>
+                        <td>Country:</td>
+                        <td>
+                            <select name="Country">
+                                <option>choose your country</option>
+                                <option>India</option>
+                                <option>USA</option>
+                                <option>UK</option>
+                                <option>Dubai</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                    <td>File:</td>
+                    <td><input type="File"></td>
+                </tr>
+                    <tr>
+                        <td>Contact:</td>
+                        <td><input type="text" name="Contact"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                        <input type="Submit">
+                        <input type="Reset"></td>
+                    </tr>
+            </table>
+        </fieldset>
+    </form><br>
+
+    <footer>
+        <h4>CopyRight &copy; All Rights Reserved <sup>&reg;</sup>  </h4>
+        <h4>Developed & Created by PickupBiz</h4>
+
+        <i id="face" class="fa fa-facebook">  Facebook</i>
+        <i id="insta" class="fa fa-instagram">  Instagram</i>
+
+        
+    </footer>
+</body>
+</html>
+
+
