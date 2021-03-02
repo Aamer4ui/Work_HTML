@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    form{
+        background-color: aqua;
+        width: 500px;
+        padding: 20px;
+    }
+</style>
+<body>
+
+    <!-- --------------Simple Form----------------- -->
+    <h2>Simple Form</h2>
+
+    <form>
+        <label>User Name:</label>
+        <input type="text">
+        <br><br>
+
+        <label>Password</label>
+        <input type="password">
+        <br><br>
+
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <!-- ------------Create Form Using Tabel---- -->
+
+    <h2>Form With Table</h2>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label>Username:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="usename">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Password</label>
+                </td>
+                <td>
+                    <input type="password" placeholder="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Login">
+                </td>
+                <td>
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <!-- ----------------Select Box
+        1) Select Tag
+        2) Option------------------- -->
+        <h2>Select Box</h2>
+
+    <form>
+        <label>Select Your Technology</label>
+        <select>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>React</option>
+        </select>
+    </form>
+
+    <!-- ----------------Select Box With OptionGroup-----
+        1) Select Tag
+        2)optgrp tag
+        3)option -->
+
+    <h2>Select Box With OptionGroup</h2>
+
+    <form>
+        <label>Select Your Fav. Topic</label>
+        <select>
+            <optgroup label="HTML">
+                <option>images</option>
+                <option>iframe</option>
+                <option>Navbar</option>
+            </optgroup>
+
+            <optgroup label="CSS">
+                <option>images</option>
+                <option>iframe</option>
+                <option>Navbar</option>
+            </optgroup>
+
+            <optgroup label="JavaScript">
+                <option>images</option>
+                <option>iframe</option>
+                <option>Navbar</option>
+            </optgroup>
+        </select>
+    </form>
+    
+    
+</body>
+</html>
