@@ -1,3 +1,13 @@
-h2{
-     width: 600px;
+body{
+    background-image: url(../Pics/image1.jpg);
+}
+div{
+    height: 200px;
+    color: white;
+}
+h1{
+    background-color: rgba(135, 45, 155, 0.5);
+    box-shadow: 0 0 10px white;
+    color: white;
+    border-radius: 20px;
 }
