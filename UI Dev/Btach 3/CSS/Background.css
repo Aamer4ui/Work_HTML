@@ -26,3 +26,16 @@ h2{
     border-bottom: 5px double black;
     border-radius: 30px;
 }
+
+/* ------------Div------------- */
+div{
+    margin-top: 10%;
+}
+.para1{
+    background: url(./Pics/image5.jpeg);
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0 black;
+    text-align: justify;
+}
