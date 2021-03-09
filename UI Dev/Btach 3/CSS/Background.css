@@ -1,5 +1,6 @@
 body{
     background-image: url(./Pics//image3.jpeg);
+    background-attachment: fixed;
 }
 nav{
     padding: 18px 25px;
