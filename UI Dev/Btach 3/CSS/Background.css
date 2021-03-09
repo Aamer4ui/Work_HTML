@@ -39,3 +39,13 @@ div{
     box-shadow: 10px 10px 0 black;
     text-align: justify;
 }
+.para2{
+    background-image: url(./Pics/user.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-color: tomato;
+    padding: 15px;
+    border: 5px solid black;
+    text-align: justify;
+    border-radius: 60px 5px;
+}
