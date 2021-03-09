@@ -24,10 +24,10 @@ a:hover{
 h2{
     background-color: white;
     width: 200px;
-    /* padding: 18px;
-    border-radius: 15px; */
-    /* border-bottom: 5px double black; */
-    border: solid 3px black;
+    padding: 18px;
+    border-radius: 15px; 
+    border-bottom: 5px double black;
+    /* border: solid 3px black; */
     padding: 30px;
 }
 div{
