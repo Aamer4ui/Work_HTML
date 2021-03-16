@@ -9,7 +9,7 @@ div{
 }
 .para1{
     position: static;
-    left: 400px;
+    bottom: 500px;
 }
 .para2{
     position: relative;
@@ -24,4 +24,9 @@ div{
     position:fixed;
     right: 0;
     top:500px;
+}
+.para5{
+    width: 100%;
+    position: sticky;
+    top:0;
 }
