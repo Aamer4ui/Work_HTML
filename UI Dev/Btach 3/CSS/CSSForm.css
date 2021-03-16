@@ -24,7 +24,7 @@ input{
     border-radius: 10px;
     outline: none;
 }
-::placeholder{
+::placeholder{  /*---------Pseudo Element-*/
     color: gray;
     text-align: center;
 }
