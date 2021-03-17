@@ -58,3 +58,7 @@ nav a:hover{
     display: block;
     text-align: center;
 }
+.droplist1 a:hover{
+    background: black;
+    color: white;
+}
