@@ -12,3 +12,49 @@ nav a{
     display: inline-block;
     border-radius: 10px;
 }
+.droplist2 a{
+    background-color: teal;
+    display: block;
+}
+.drop2{
+    display: inline-block;
+}
+.droplist2{
+    position: absolute;
+    padding: 5px;
+    width: 188px;
+    margin-top: 3px;
+    display: none;
+}
+nav a:hover{
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+.drop2:hover .droplist2{
+    display: block;
+    text-align: center;
+}
+.droplist2 a:hover{
+    background: black;
+    color: white;
+}
+/* ----------------------------------- */
+
+.droplist1{
+    position: absolute;
+    padding: 5px;
+    width: 188px;
+    margin-top: 3px;
+    display: none;
+}
+.droplist1 a{
+    background-color: teal;
+    display: block;
+}
+.drop1{
+    display: inline-block;
+}
+.drop1:hover .droplist1{
+    display: block;
+    text-align: center;
+}
