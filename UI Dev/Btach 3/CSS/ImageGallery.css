@@ -6,3 +6,10 @@ section h1{
     font-size: 35px;
     color: red;
 }
+.image{
+    width: 300px;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
