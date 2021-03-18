@@ -1,3 +1,8 @@
 section{
     text-align: center;
 }
+section h1{
+    font-family: cursive;
+    font-size: 35px;
+    color: red;
+}
