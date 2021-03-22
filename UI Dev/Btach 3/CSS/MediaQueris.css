@@ -13,3 +13,17 @@ div img{
     margin: auto;
 }
 /* -----------------------Mobile Screen------------ */
+@media(max-width:500px){
+    body{
+        background: linear-gradient(45deg, green, red, black);
+    }
+    div h2:nth-child(1){
+        display: block;
+        color: white;
+    }
+    div p{
+        font-size: 20px;
+        color: white;
+    }
+
+}
