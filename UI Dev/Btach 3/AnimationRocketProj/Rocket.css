@@ -10,3 +10,11 @@ img{
     left: 50%;
     transform: translateX(-50%);
 }
+@keyframes fly{
+    0%{
+        transform: translate(-50%,0);
+    }
+    100%{
+        transform: translate(-50%,-100vh);
+    }
+}
